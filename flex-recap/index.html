@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- ./ is done for consistency more than anything else, 
+        due to later usage of ../ when going up a level -->
   </head>
   <body>
     <h1>Sams Flex Recap</h1>
+    <!-- can refer to them when using id or class -->
+    <!-- class is for multiple, id is for singular. It doesn't 
+        work if multiple h1s for example use id - will only apply 
+        logic to first h1 -->
+    <main>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </main>
+
+    <section>
+      <div id="left-box">
+        <p id="back-tag">Back</p>
+        <p id="page-tag">01/02</p>
+      </div>
+      <div id="middle-box">
+        <p id="title-tag">My Lorem</p>
+        <p id="text-tag">
+          <b>Lorem ipsum</b> is simple dummy text.
+          ijedwoijediwjeoidjowiejdiwoejdoweijdwoejdoewijdiwoejdiwoejdow
+        </p>
+      </div>
+      <div id="right-box">
+        <p id="next-tag">Next</p>
+      </div>
+    </section>
   </body>
 </html>

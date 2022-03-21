@@ -1,0 +1,87 @@
+h1 {
+  color: red;
+}
+
+main {
+  width: 90%;
+  height: 200px;
+  /* if the height is displayed then flex-wrap border bugs out a bit */
+  /* width sets how much of the block it uses */
+  border: 2px solid black;
+  margin: 50px auto;
+  /* Margin centers the entire box, px before hand
+   gives a set amount of px to margin in all direction.
+    Auto only works with things that have a width set to it. */
+  display: flex;
+  /* row is the default */
+  /* flex-direction: column-reverse; */
+  justify-content: space-evenly;
+  /* have to cycle through to find the right type */
+  align-items: center;
+  flex-wrap: wrap;
+  /* default it is not on */
+  /* helps with verticallity */
+}
+
+/* div {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+section {
+  width: 100%;
+  border: 2px solid black;
+  margin: 50px auto;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* reason why flexbox is used is because it is so responsive 
+and helps with different screen size + general webpage changes
+especially considering how many different devices access websites nowadays. Really important overall in terms of 
+scaling*/
+
+div {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-box {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+#middle-box {
+  width: 50%;
+  /* defining the width goes a long way */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text-tag {
+  background-color: grey;
+}
+
+#right-box {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  background-color: grey;
+}
+/* media queries cna be used to change element sizing, flex-wrap can also be used with changing size */
