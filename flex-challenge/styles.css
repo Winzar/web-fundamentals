@@ -1,0 +1,217 @@
+#top-3 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#top-left {
+  width: 50%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-left-top {
+  height: 40%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-middle {
+  height: 10%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom {
+  height: 50%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom-left {
+  width: 30%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom-right {
+  width: 70%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+}
+
+#top-left-bottom-right-top {
+  width: 100%;
+  height: 50%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom-right-bottom {
+  width: 100%;
+  height: 50%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom-right-bottom-left {
+  width: 50%;
+  height: 100%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-left-bottom-right-bottom-right {
+  width: 50%;
+  height: 100%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-middle {
+  width: 25%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#top-right {
+  width: 25%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-right-top {
+  height: 20%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-right-middle {
+  height: 40%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-right-middle-left {
+  width: 50%;
+  flex-direction: row;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#top-right-middle-right {
+  width: 50%;
+  flex-direction: row;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#top-right-bottom {
+  height: 40%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+}
+
+#top-right-bottom-left {
+  width: 50%;
+  flex-direction: row;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#top-right-bottom-right {
+  width: 50%;
+  flex-direction: row;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#bottom {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.bottom-left2 {
+  width: 10%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#bottom-middle {
+  width: 50%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 50px;
+}
+
+#bottom-right {
+  width: 30%;
+  border: 2px solid red;
+  /* margin: 50px auto; */
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 30px;
+}
