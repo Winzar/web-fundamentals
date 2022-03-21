@@ -1,0 +1,14 @@
+main {
+  border: 2px solid black;
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+main div {
+  margin: 10px;
+  background-color: aqua;
+}
