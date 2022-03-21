@@ -1,20 +1,75 @@
+// .main {
+//     border: 2px solid black;
+//     width: 80%;
+//     height: 600px;
+//     margin: 20px auto;
+//     display: grid;
+//     //columns
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 1fr 1fr 1fr;
+//     gap: 10px;
+//     div {
+//         background-color: aqua;
+//     }
+// }
+
+
+
+
 main {
     border: 2px solid black;
     width: 80%;
     height: 600px;
     margin: 20px auto;
     display: grid;
-    //columnsz
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-areas:
+     "nav nav nav nav nav"
+     "section section div div div"
+     "footer footer footer footer footer"
+     ;
+     gap: 10px;
+     
+    > * {
+         background-color: crimson;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
 
-    div {
-        // width: 50px;
-        // height: 50px;
-        margin: 10px ; // or can use gap- but margin adds it to all sides
-
-        background-color: aqua;
-    }
 }
 
+
+nav {
+    grid-area: nav;
+}
+
+section {
+    grid-area: section;
+}
+
+div{
+    grid-area: div;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+// media queries 
+// make our websites responsive... can be viewed on different screen sizes/display types
+
+@media screen and (max-width: 750px) {
+main {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (max-width: 500px) {
+main {
+    background-color: black;
+    div {
+        color: white;
+    }
+}
+}
